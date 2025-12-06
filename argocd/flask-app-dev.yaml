@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YOUR-ORG/gitops-demo.git
+    repoURL: https://github.com/hamzashaheen95/argocd-hamza-test.git
     targetRevision: main
     path: apps/flask-app/overlays/dev
 
