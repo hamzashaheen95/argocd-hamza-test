@@ -8,7 +8,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: ghcr.io/example/flask-app:dev
+          image: swr.cn-east-3.myhuaweicloud.com/kubesre/gcr.io/heptio-images/ks-guestbook-demo:0.2
           resources:
             requests:
               cpu: "100m"
