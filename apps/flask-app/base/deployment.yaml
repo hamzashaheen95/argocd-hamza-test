@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: ghcr.io/example/flask-app:latest
+          image: swr.cn-east-3.myhuaweicloud.com/kubesre/gcr.io/heptio-images/ks-guestbook-demo:0.2
           ports:
             - containerPort: 5000
 
